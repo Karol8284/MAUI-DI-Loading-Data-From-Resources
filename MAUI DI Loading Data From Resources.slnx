@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MAUI DI Loading Data From Resources/MAUI DI Loading Data From Resources.Shared/MAUI DI Loading Data From Resources.Shared.csproj" />
+  <Project Path="MAUI DI Loading Data From Resources/MAUI DI Loading Data From Resources.Web.Client/MAUI DI Loading Data From Resources.Web.Client.csproj" />
+  <Project Path="MAUI DI Loading Data From Resources/MAUI DI Loading Data From Resources.Web/MAUI DI Loading Data From Resources.Web.csproj" />
+  <Project Path="MAUI DI Loading Data From Resources/MAUI DI Loading Data From Resources/MAUI DI Loading Data From Resources.csproj" />
+</Solution>
