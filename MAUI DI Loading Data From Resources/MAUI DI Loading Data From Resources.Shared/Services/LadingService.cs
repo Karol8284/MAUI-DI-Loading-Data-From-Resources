@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace MAUI_DI_Loading_Data_From_Resources.Shared.Services
+{
+    public interface LadingService
+    {
+        Task<IReadOnlyList<string>> LoadedData();
+
+
+    }
+}

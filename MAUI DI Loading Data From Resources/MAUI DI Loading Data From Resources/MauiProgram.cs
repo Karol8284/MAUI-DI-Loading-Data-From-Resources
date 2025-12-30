@@ -1,4 +1,5 @@
 ﻿using MAUI_DI_Loading_Data_From_Resources.Services;
+using MAUI_DI_Loading_Data_From_Resources.Services.LoadingData;
 using MAUI_DI_Loading_Data_From_Resources.Shared.Services;
 using Microsoft.Extensions.Logging;
 
@@ -18,6 +19,8 @@ namespace MAUI_DI_Loading_Data_From_Resources
 
             // Add device-specific services used by the MAUI_DI_Loading_Data_From_Resources.Shared project
             builder.Services.AddSingleton<IFormFactor, FormFactor>();
+
+            builder.Services.AddSingleton<CountryLoader,LoadingService>();
 
             builder.Services.AddMauiBlazorWebView();
 
